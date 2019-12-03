@@ -7,7 +7,7 @@ export default class App extends Component {
     return (
       <ScrollView >
       <View style={{flex: 1}}>
-        <Text style={{fontSize: 20,margin: 30, fontWeight: 'bold',
+        {/* <Text style={{fontSize: 20,margin: 30, fontWeight: 'bold',
          }}>Specials</Text>
     <View style={{marginLeft: 30,  }}>
     <Image
@@ -151,7 +151,7 @@ borderBottomRightRadius: 20}}
 <Image source={require('./image/chat_box.png')} style={{width: 25, height: 20,marginLeft:190 }}/>
 </View>
 
-      </View>
+      </View> */}
 
 
   </View>
