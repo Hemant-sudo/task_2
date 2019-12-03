@@ -7,7 +7,63 @@ export default class App extends Component {
     return (
       <ScrollView >
       <View style={{flex: 1}}>
+        <Text style={{fontSize: 20,margin: 30, fontWeight: 'bold',
+         }}>Specials</Text>
+    <View style={{marginLeft: 30,  }}>
+    <Image
+          source={require('./image/momos.jpg')}
+          style={{ width: 300, height:300,borderRadius: 20,  }}
+        />
+    </View>
       
+
+        <Text style={{fontSize: 15, margin: 20, fontWeight: 'bold'}}>
+        <Image source={require('./image/red_icon.png')} style={{width: 25, height: 20}}/>  Chicken Momos</Text>
+
+<View style={{flexDirection: 'row', justifyContent: 'space-around'}}>
+
+
+<Text>
+<Image source={require('./image/images.png')} style={{width: 20, height: 20}}/> &nbsp;
+4.2
+</Text>
+
+
+<Text>
+<Image source={require('./image/eye.png')} style={{width: 20, height: 20}}/> &nbsp;2000</Text>
+
+
+<Text>
+<Image source={require('./image/prep.png')} style={{width: 20, height: 20}}/> &nbsp;40-50</Text>
+</View>
+
+<View  style={{flexDirection: 'row', justifyContent: 'space-around', marginTop: 10}}>
+<Text style={{marginLeft: -10}}>( 550 reviews)</Text>
+<Text style={{marginLeft: -10}}>Views</Text>
+<Text style={{marginLeft: 20}}>Prep Time</Text>
+
+</View>
+
+<View  style={{flexDirection: 'row', justifyContent: 'space-around', marginTop: 30}}>
+<Image source={require('./image/star.png')} style={{width: 20, height: 20, }}/>
+<Text style={{marginRight: -20}}>
+<Image source={require('./image/kcal.jpg')} style={{width: 20, height: 20}}/> &nbsp;500</Text>
+<Text style={{marginRight: -20}}><Image source={require('./image/customize.png')} style={{width: 20, height: 20}}/> Customize</Text>
+</View>
+
+
+
+
+<TouchableOpacity style={{padding:12, marginTop: 40,
+	backgroundColor: '#FF5733',
+	borderBottomLeftRadius: 20,
+borderBottomRightRadius: 20}}
+		
+		  >
+			 <Text style={{ fontSize:20,
+	color: '#ffffff',
+	textAlign: 'center'}}>Add to cart - Rs 50</Text>
+		  </TouchableOpacity>
 
       <View>
 
@@ -96,6 +152,7 @@ export default class App extends Component {
 </View>
 
       </View>
+
 
   </View>
       </ScrollView>
