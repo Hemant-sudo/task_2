@@ -7,6 +7,10 @@ export default class App extends Component {
     return (
       <ScrollView >
       <View style={{flex: 1}}>
+
+
+
+        
         <Text style={{fontSize: 20,margin: 30, fontWeight: 'bold',
          }}>Specials</Text>
     <View style={{marginLeft: 30,  }}>
