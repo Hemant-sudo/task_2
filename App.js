@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Text, Image, View, StyleSheet, ScrollView, TouchableOpacity } from 'react-native';
-
+// op
 
 export default class App extends Component {
   render() {
