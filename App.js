@@ -9,9 +9,13 @@ export default class App extends Component {
 
 
 
-        
+{/* =================================================== */}
+<View >
         <Text style={{fontSize: 20,margin: 30, fontWeight: 'bold',
-         }}>Specials</Text>
+         }}>
+           People also ordered:
+         </Text>
+
     <View style={{marginLeft: 30,  }}>
     <Image
           source={require('./image/momos.jpg')}
@@ -67,6 +71,11 @@ borderBottomRightRadius: 20}}
 	color: '#ffffff',
 	textAlign: 'center'}}>Add to cart - Rs 50</Text>
 		  </TouchableOpacity>
+
+
+      </View > 
+{/* =================================================== */}
+
 
       <View>
 
