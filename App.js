@@ -10,8 +10,9 @@ export default class App extends Component {
 
 
 {/* =================================================== */}
-<View >
-        <Text style={{fontSize: 20,margin: 30, fontWeight: 'bold',
+<View style={{backgroundColor: 
+'red'}}>
+        <Text style={{fontSize: 16,margin: 30, fontWeight: 'bold',
          }}>
            People also ordered:
          </Text>
@@ -77,7 +78,7 @@ borderBottomRightRadius: 20}}
 {/* =================================================== */}
 
 
-      <View>
+      {/* <View>
 
 
       <View style={{flexDirection: 'row', justifyContent: 'space-around', }}>
@@ -167,95 +168,95 @@ borderBottomRightRadius: 20}}
 
       <View style={{marginTop: 10, marginLeft: 10, marginBottom: 20}}>
         {/* Description */}
-        <Text style={{fontSize: 22, fontWeight: 'bold'}}>Description</Text>
+        {/* <Text style={{fontSize: 22, fontWeight: 'bold'}}>Description</Text> */}
 
-        <Text style={{marginTop: 12, fontSize: 18}}>A restaurant is a place where cooked food is sold to the public, and where people sit down to eat it. It is also a place where people go to enjoy the time and to eat a meal.</Text>
+        {/* <Text style={{marginTop: 12, fontSize: 18}}>A restaurant is a place where cooked food is sold to the public, and where people sit down to eat it. It is also a place where people go to enjoy the time and to eat a meal.</Text> */}
 
        {/* allergy */}
-        <Text style={{fontSize: 22, fontWeight: 'bold', marginTop: 25}}>Allergy Info</Text>
-        <Text style={{marginTop: 12, fontSize: 18}}>This food items contains:</Text>
+        {/* <Text style={{fontSize: 22, fontWeight: 'bold', marginTop: 25}}>Allergy Info</Text>
+        <Text style={{marginTop: 12, fontSize: 18}}>This food items contains:</Text> */}
 
-        <View style={{flexDirection: 'row', justifyContent: 'flex-start', marginLeft: 30, marginTop: 12}}>
+        {/* <View style={{flexDirection: 'row', justifyContent: 'flex-start', marginLeft: 30, marginTop: 12}}>
         <Image source={require('./image/peanut.png')} style={{width: 40, height: 40, }}/>
         <Image source={require('./image/gluten.png')} style={{width: 40, height: 40,  marginLeft: 70}}/>
 
-        </View>
+        </View> */}
 
-        <View style={{flexDirection: 'row', justifyContent: 'flex-start', marginLeft: 30, marginTop: 12}}>
+        {/* <View style={{flexDirection: 'row', justifyContent: 'flex-start', marginLeft: 30, marginTop: 12}}>
        <Text>Peanuts</Text>
        <Text style={{ marginLeft: 60}}>Gluten</Text>
 
-        </View>
+        </View> */}
 
 
       {/* Nutrition info */}
-      <View style={{marginTop: 25}} >
-      <Text style={{fontSize: 22, fontWeight: 'bold'}}>Nutrition Info </Text>
+      {/* <View style={{marginTop: 25}} >
+      <Text style={{fontSize: 22, fontWeight: 'bold'}}>Nutrition Info </Text> */}
 
         {/* fat */}
-      <View  style={{flexDirection: 'row', justifyContent: 'flex-start',  marginTop: 12}}>
+      {/* <View  style={{flexDirection: 'row', justifyContent: 'flex-start',  marginTop: 12}}>
       <Text style={{fontSize: 20, fontWeight: 'bold'}}>Fat</Text>
       <Text style={{marginLeft: 230,fontSize: 20,}}> 12 gm</Text>
-      </View>
+      </View> */}
         {/* saturated */}
-      <View  style={{flexDirection: 'row', justifyContent: 'flex-start', marginTop: 8}}>
+      {/* <View  style={{flexDirection: 'row', justifyContent: 'flex-start', marginTop: 8}}>
       <Text style={{fontSize: 20, marginLeft: 18 }}>Saturated </Text>
       <Text style={{fontSize: 20, marginLeft: 156,}}>2.2 gm</Text>
-      </View>
+      </View> */}
     
       {/* unsaturated */}
-      <View  style={{flexDirection: 'row', justifyContent: 'flex-start', marginTop: 8}}>
+      {/* <View  style={{flexDirection: 'row', justifyContent: 'flex-start', marginTop: 8}}>
       <Text style={{fontSize: 20, marginLeft: 18 }}>Unsaturated </Text>
       <Text style={{fontSize: 20, marginLeft: 137,}}>10 gm</Text>
-      </View>
+      </View> */}
 
       {/* Carbohydrates */}
-      <View  style={{flexDirection: 'row', justifyContent: 'flex-start',  marginTop: 12}}>
+      {/* <View  style={{flexDirection: 'row', justifyContent: 'flex-start',  marginTop: 12}}>
       <Text style={{fontSize: 20, fontWeight: 'bold'}}>Carbohydrates
       </Text>
       <Text style={{marginLeft: 135,fontSize: 20,}}> 24 gm</Text>
-      </View>
+      </View> */}
 
          {/* Dietrary fibers */}
-         <View  style={{flexDirection: 'row', justifyContent: 'flex-start', marginTop: 8}}>
+         {/* <View  style={{flexDirection: 'row', justifyContent: 'flex-start', marginTop: 8}}>
       <Text style={{fontSize: 20, marginLeft: 18 }}>Dietary Fibers </Text>
       <Text style={{fontSize: 20, marginLeft: 126,}}>2.2 gm</Text>
-      </View>
+      </View> */}
     
       {/* Total sugar */}
-      <View  style={{flexDirection: 'row', justifyContent: 'flex-start', marginTop: 8}}>
+      {/* <View  style={{flexDirection: 'row', justifyContent: 'flex-start', marginTop: 8}}>
       <Text style={{fontSize: 20, marginLeft: 18 }}>Total Sugars </Text>
       <Text style={{fontSize: 20, marginLeft: 137,}}>10 gm</Text>
-      </View>
+      </View> */}
 
 
   {/* Proteins */}
-  <View  style={{flexDirection: 'row', justifyContent: 'flex-start',  marginTop: 12}}>
+  {/* <View  style={{flexDirection: 'row', justifyContent: 'flex-start',  marginTop: 12}}>
       <Text style={{fontSize: 20, fontWeight: 'bold'}}>Proteins
       </Text>
       <Text style={{marginLeft: 200,fontSize: 20,}}> 24 gm</Text>
-      </View>
+      </View> */}
 
 
   {/* Cholestrol */}
-  <View  style={{flexDirection: 'row', justifyContent: 'flex-start',  marginTop: 12}}>
+  {/* <View  style={{flexDirection: 'row', justifyContent: 'flex-start',  marginTop: 12}}>
       <Text style={{fontSize: 20, fontWeight: 'bold'}}>Cholestrol
       </Text>
       <Text style={{marginLeft: 180,fontSize: 20,}}> 24 gm</Text>
-      </View>
+      </View> */}
 
 
         {/* Sodium */}
-  <View  style={{flexDirection: 'row', justifyContent: 'flex-start',  marginTop: 12}}>
+  {/* <View  style={{flexDirection: 'row', justifyContent: 'flex-start',  marginTop: 12}}>
       <Text style={{fontSize: 20, fontWeight: 'bold'}}>Sodium
       </Text>
       <Text style={{marginLeft: 200,fontSize: 20,}}> 24 gm</Text>
-      </View>   
+      </View>    */}
 
 
-      </View>
+      {/* </View>
     
-      </View>
+      </View>  */}
 
   </View>
       </ScrollView>
