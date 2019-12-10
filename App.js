@@ -27,9 +27,9 @@ export default class App extends Component {
 <View style={{marginTop: 100}}>
 <View style={{ flex: 1, backgroundColor: 'white', height: 277, marginLeft: '5%', marginRight: '5%', marginTop: 30, borderRadius: 20, justifyContent: 'center', alignItems: 'center', width: '69%', }}>
 
-<View style={{ height: '80%', width: '89%', }}>
+<View style={{ height: '82%', width: '89%', }}>
 
-<Image
+<Image 
           source={require('./image/momos.jpg')}
           style={{ width: 220, height:180,borderRadius: 20,marginTop: -100,
           marginLeft: '0%' }}
@@ -67,10 +67,10 @@ export default class App extends Component {
 </View>
 
 
-<View  style={{flexDirection: 'row', justifyContent: 'space-around', marginTop: 10,}}>
+<View  style={{flexDirection: 'row', justifyContent: 'space-around', marginTop: 10, }}>
 <Image source={require('./image/star.png')} style={{width: 20, height: 20, }}/>
 <Text style={{marginRight: -20}}>
-<Image source={require('./image/kcal.jpg')} style={{width: 20, height: 20}}/> &nbsp;500</Text>
+<Image source={require('./image/kcal.jpg')} style={{width: 20, height: 20}}/> 500</Text>
 <Text style={{marginRight: -20}}><Image source={require('./image/customize.png')} style={{width: 20, height: 20}}/> Customize</Text>
 </View>
 
@@ -82,10 +82,10 @@ export default class App extends Component {
 
 </View>
 
-<TouchableOpacity style={{padding:12, marginTop: 10,
+<TouchableOpacity style={{padding:12, marginTop: 0,
 	backgroundColor: '#FF5733',
 	borderBottomLeftRadius: 20,
-borderBottomRightRadius: 20, width: '100%'}}
+borderBottomRightRadius: 20, width: '101%',}}
 		
 		  >
         <View style={{flexDirection: 'row', justifyContent:'center' ,alignItems: 'center'}}>
