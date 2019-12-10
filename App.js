@@ -25,7 +25,7 @@ export default class App extends Component {
 
 
 <View style={{marginTop: 100}}>
-<View style={{ flex: 1, backgroundColor: 'white', height: 277, marginLeft: '5%', marginRight: '5%', marginTop: 30, borderRadius: 10, justifyContent: 'center', alignItems: 'center', width: '69%', }}>
+<View style={{ flex: 1, backgroundColor: 'white', height: 277, marginLeft: '5%', marginRight: '5%', marginTop: 30, borderRadius: 20, justifyContent: 'center', alignItems: 'center', width: '69%', }}>
 
 <View style={{ height: '80%', width: '89%', }}>
 
@@ -75,23 +75,30 @@ export default class App extends Component {
 </View>
 
 
-<View>
+
+
+
+
+
+</View>
+
 <TouchableOpacity style={{padding:12, marginTop: 10,
 	backgroundColor: '#FF5733',
 	borderBottomLeftRadius: 20,
-borderBottomRightRadius: 20}}
+borderBottomRightRadius: 20, width: '100%'}}
 		
 		  >
-			 <Text style={{ fontSize:20,
+        <View style={{flexDirection: 'row', justifyContent:'center' ,alignItems: 'center'}}>
+        <Text style={{ fontSize:15,
 	color: '#ffffff',
-	textAlign: 'center'}}>Add to cart - Rs 50</Text>
+  textAlign: 'center', }}>Add to cart - </Text>
+
+  <Text style={{ fontSize:20,
+	color: '#ffffff',
+	textAlign: 'center', }}>Rs 50</Text>
+        </View>
+		
 		  </TouchableOpacity>
-</View>
-
-
-
-
-</View>
 
 
 </View>
