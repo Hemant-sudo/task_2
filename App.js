@@ -77,7 +77,7 @@ borderBottomRightRadius: 20}}
       </View > 
 {/* =================================================== */}
 
-
+{/* this is the actual code format here  */}
       {/* <View>
 
 
